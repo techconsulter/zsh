@@ -1,6 +1,8 @@
 # zsh
 ZSH Config adapted 4 ubuntu with install script
 
+Tested on Ubuntu and Kali
+
 Based on the ZSH Config of ChrisTitus https://github.com/ChrisTitusTech/zsh
 
 ## Setup
