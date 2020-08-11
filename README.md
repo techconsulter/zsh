@@ -1,5 +1,5 @@
 # zsh
-ZSH Config adated 4 ubuntu with install script
+ZSH Config adapted 4 ubuntu with install script
 
 Based on the ZSH Config of ChrisTitus https://github.com/ChrisTitusTech/zsh
 
