@@ -15,6 +15,6 @@ wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20I
 wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 
 #On Linux:
-mkdir -p /usr/share/fonts/truetype/Meslo
-cp *.ttf /usr/share/fonts/truetype/Meslo/
+sudo mkdir -p /usr/share/fonts/truetype/Meslo
+sudo cp *.ttf /usr/share/fonts/truetype/Meslo/
 fc-cache
