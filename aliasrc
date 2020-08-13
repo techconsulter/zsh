@@ -86,3 +86,5 @@ gitpush() {
 }
 alias gp=gitpush
 alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
+
+alias version='lsb_release -a'
