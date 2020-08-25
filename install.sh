@@ -6,7 +6,10 @@ sudo apt install zsh zsh-syntax-highlighting
 #installing plugins via github
 cd /usr/share
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions
-sudo git clone git://github.com/wting/autojump.git
+sudo apt install python
+sudo apt install autojump
+#sudo git clone git://github.com/wting/autojump.git
+#/usr/share/autojump/install.py
 
 #powerlevel10k for zsh prompt
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
