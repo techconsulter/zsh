@@ -65,7 +65,8 @@ alias duf='du -sh *'
 alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
-alias h='history'
+alias h='history 1'
+alias history='history 1'
 alias hgrep="fc -El 0 | grep"
 alias help='man'
 alias p='ps -f'
@@ -77,14 +78,12 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias vim='vim'
 alias vi='vim'
-alias gds-start='sudo systemctl start openvpn-client@gds'
-alias gds-stop='sudo systemctl stop openvpn-client@gds'
 gitpush() {
     git add .
     git commit -m "$*"
     git push
 }
 alias gp=gitpush
-alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
+#alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 
 alias version='lsb_release -a'
