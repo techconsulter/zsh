@@ -31,7 +31,7 @@ alias fullupdate='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrad
 alias ls='ls --group-directories-first --color=auto -h'
 alias ll='ls -hl'
 # ls, the common ones I use a lot shortened for rapid fire usage
-alias l='ls -lFh'     #size,show type,human readable
+alias l='ls -alFh'     #size,show type,human readable
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
 alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
 alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
@@ -65,7 +65,7 @@ alias duf='du -sh *'
 alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
-alias h='history 1'
+alias h='history'
 alias history='history 1'
 alias hgrep="fc -El 0 | grep"
 alias help='man'
