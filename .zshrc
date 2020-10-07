@@ -38,7 +38,7 @@ _comp_options+=(globdots)               # Include hidden files.
 
 #Custom ZSH Binds
 #bindkey '^ ' autosuggest-accept
-bindkey '^' autosuggest-accept
+bindkey '°' autosuggest-accept
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/zsh/aliasrc" ] && source "$HOME/zsh/aliasrc"
 
