@@ -31,7 +31,11 @@ alias fullupdate='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrad
 alias ls='ls --group-directories-first --color=auto -h'
 alias ll='ls -hl'
 # ls, the common ones I use a lot shortened for rapid fire usage
+<<<<<<< HEAD
 alias l='ls -alFh'     #size,show type,human readable
+=======
+alias l='ls -lFh'     #size,show type,human readable
+>>>>>>> 320105877e3d62822024c7991b18195339a388fc
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
 alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
 alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
@@ -65,7 +69,11 @@ alias duf='du -sh *'
 alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
+<<<<<<< HEAD
 alias h='history'
+=======
+alias h='history 1'
+>>>>>>> 320105877e3d62822024c7991b18195339a388fc
 alias history='history 1'
 alias hgrep="fc -El 0 | grep"
 alias help='man'
@@ -87,4 +95,7 @@ alias gp=gitpush
 #alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 
 alias version='lsb_release -a'
+<<<<<<< HEAD
 alias hm='hostname'
+=======
+>>>>>>> 320105877e3d62822024c7991b18195339a388fc
