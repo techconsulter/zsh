@@ -24,9 +24,11 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 EDITOR=nano
 
 # History in cache directory:
-HISTSIZE=100000
-SAVEHIST=100000
+HISTSIZE=1000000
+SAVEHIST=1000000
 HISTFILE=~/.cache/zshhistory
+setopt INC_APPEND_HISTORY
+setopt EXTENDED_HISTORY
 setopt appendhistory
 
 # Basic auto/tab complete:
